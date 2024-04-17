@@ -7,6 +7,6 @@
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public string PhoneNumber { get; set; }
-        public string Supervisor { get; set; }
+        public Supervisor Supervisor { get; set; }
     }
 }
