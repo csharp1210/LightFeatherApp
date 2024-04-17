@@ -28,12 +28,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-
-    //app.MapControllerRoute(
-    //name: "default",
-    //pattern: "{controller=NotificationForm}/{action=Index}");
 }
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
